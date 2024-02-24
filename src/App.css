@@ -1,0 +1,9 @@
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  width: 50%;
+  margin: 0 auto;
+}
