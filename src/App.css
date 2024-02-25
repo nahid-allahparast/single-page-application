@@ -1,3 +1,9 @@
+.layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 ul {
   display: flex;
   justify-content: space-between;
@@ -6,4 +12,17 @@ ul {
 nav {
   width: 50%;
   margin: 0 auto;
+  padding: 1rem 0;
+}
+.nav {
+  border-bottom: 1px solid #e0e0e0;
+}
+a.active {
+  color: blue;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #e0e0e0;
+  padding: 0.5rem 0;
 }
